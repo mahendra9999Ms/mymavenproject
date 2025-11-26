@@ -1,55 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME - KRISHNA DEVOPS</title>
-    <style>
-        body {
-            font-family: times new roman, sans-serif;
-            background-color: brown; /* Light blue background */
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            text-align: center;
-            margin-top: 100px;
-        }
-        h1 {
-            color: #003366;
-            font-size: 2.2em;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 30px;
-        }
-        li {
-            margin: 10px 0;
-            font-size: 1.1em;
-            color: white;
-        }
-        marquee {
-            background-color: #0066cc;
-            color: white;
-            padding: 10px 0;
-            font-size: 1.5em;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <marquee behavior="scroll" direction="left" scrollamount="5">
-             WELCOME TO KRISHNA DEVOPS         </marquee>
-        <ul>
-            <li><strong>DEVOPS IS A  COBINATION OF DEV and OPS</strong></li>
-            <li><strong>Master the art of Automation & Continuous Integration</strong></li>
-            <li><strong>Gain Hands-on Experience with Industry Tools</strong></li>
-            <li><strong>Join us and thank you for choosing DevOps!</strong></li>
-            <li><b>Learn Here Lead Anywhere </b></li>
-        </ul>
-    </div>
-</body>
+<html>
+  <head>
+    <title>Dynamic Quiz Project</title>
+    <link type='text/css' rel='stylesheet' href='quiz.css'/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+  </head>
+  <body>
+    <div id='container'>
+      <div id='title'>
+        <h1>Learning Js Properly: Project #1 - Dynamic Quiz</h1>
+      </div>
+        <br/>
+        <div id='quiz'></div>
+        <div class='button' id='next'><a href='#'>Next</a></div>
+        <div class='button' id='prev'><a href='#'>Prev</a></div>
+        <div class='button' id='start'> <a href='#'>Start Over</a></div>
+        <!-- <button class='' id='next'>Next</a></button>
+        <button class='' id='prev'>Prev</a></button>
+        <button class='' id='start'> Start Over</a></button> -->
+      </div>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script type="text/javascript" src='questions.json'></script>
+    <script type='text/javascript' src='quizJS.js'></script>
+  </body>
 </html>
