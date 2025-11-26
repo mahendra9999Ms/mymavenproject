@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #cce7ff; /* Light blue background */
+            background-color: pink; /* Light blue background */
             margin: 0;
             padding: 0;
         }
