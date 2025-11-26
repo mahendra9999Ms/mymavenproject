@@ -27,7 +27,7 @@
         li {
             margin: 10px 0;
             font-size: 1.1em;
-            color: #333;
+            color: white;
         }
         marquee {
             background-color: #0066cc;
