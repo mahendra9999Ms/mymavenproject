@@ -6,8 +6,8 @@
     <title>HOME - KRISHNA DEVOPS</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: violet; /* Light blue background */
+            font-family: times new roman, sans-serif;
+            background-color: brown; /* Light blue background */
             margin: 0;
             padding: 0;
         }
