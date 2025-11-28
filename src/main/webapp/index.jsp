@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>10th Class Dynamic Quiz</title>
-<link type="text/css" rel="stylesheet" href="quizproject1.css">
+<link type="text/css" rel="stylesheet" href="quiz.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans">
 </head>
 <body>
@@ -17,6 +17,6 @@
 <div class="button" id="start"><a href="#">Start Over</a></div>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="quizproject1.js"></script>
+<script type="text/javascript" src="quizJS.js"></script>
 </body>
 </html>
